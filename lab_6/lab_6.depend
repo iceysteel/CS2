@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1411525869 source:c:\users\zain\documents\c++\lab_6\main.cpp
+	<iostream>
+	<string>
+	"Time.h"
+
+1411525829 source:c:\users\zain\documents\c++\lab_6\src\time.cpp
+	"Time.h"
+	<iostream>
+	<iomanip>
+	<string>
+
+1411525829 c:\users\zain\documents\c++\lab_6\include\time.h
+	<string>
+

@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1409786959 source:c:\users\zain\documents\c++\carclass\src\car.cpp
+	"Car.h"
+	<string>
+	<iostream>
+
+1409786959 c:\users\zain\documents\c++\carclass\include\car.h
+	<string>
+	<iostream>
+
+1409787014 source:c:\users\zain\documents\c++\carclass\main.cpp
+	<iostream>
+	<string>
+	"Car.h"
+

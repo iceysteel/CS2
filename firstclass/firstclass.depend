@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1409105984 source:c:\users\zain\documents\c++\firstclass\main.cpp
+	<iostream>
+	"car.h"
+
+1409106106 c:\users\zain\documents\c++\firstclass\include\car.h
+

@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1409715006 source:c:\users\zain\documents\c++\employeeclass\main.cpp
+	"Employee.h"
+	<iostream>
+	<string>
+
+1409715512 c:\users\zain\documents\c++\employeeclass\include\employee.h
+	<string>
+
+1409715512 source:c:\users\zain\documents\c++\employeeclass\src\employee.cpp
+	"Employee.h"
+	<string>
+	<iostream>
+

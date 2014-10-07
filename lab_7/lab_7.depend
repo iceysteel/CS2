@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1411693880 source:c:\users\zain\documents\c++\lab_7\main.cpp
+	<iostream>
+	"Tictactoe.h"
+
+1411698496 c:\users\zain\documents\c++\lab_7\include\tictactoe.h
+
+1411694048 source:c:\users\zain\documents\c++\lab_7\src\tictactoe.cpp
+	<iostream>
+	"Tictactoe.h"
+	<iomanip>
+

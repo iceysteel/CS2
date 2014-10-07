@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1409710690 source:c:\users\zain\documents\c++\dateproject\main.cpp
+	<iostream>
+	"Date.h"
+	<string>
+
+1409710689 c:\users\zain\documents\c++\dateproject\include\date.h
+	<string>
+
+1409710690 source:c:\users\zain\documents\c++\dateproject\src\date.cpp
+	"Date.h"
+	<iostream>
+	<string>
+

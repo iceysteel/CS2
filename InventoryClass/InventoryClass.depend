@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1411524794 source:c:\users\zain\documents\c++\inventoryclass\main.cpp
+	<iostream>
+	"Inventory.h"
+	<string>
+	"CashRegister.h"
+
+1411097785 c:\users\zain\documents\c++\inventoryclass\include\inventory.h
+	<iostream>
+	<string>
+
+1411097785 source:c:\users\zain\documents\c++\inventoryclass\src\inventory.cpp
+	<iostream>
+	<string>
+	"Inventory.h"
+
+1411103404 c:\users\zain\documents\c++\inventoryclass\include\cashregister.h
+	<string>
+	"Inventory.h"
+
+1411103662 source:c:\users\zain\documents\c++\inventoryclass\src\cashregister.cpp
+	"CashRegister.h"
+	<iostream>
+	<string>
+	"Inventory.h"
+
