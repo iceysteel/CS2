@@ -39,3 +39,49 @@ void Month::print()
     cout << monthNumber << endl;
 
 }
+
+Month Month::operator++()
+  {
+    if(monthNumber < 12)
+    {
+        monthNumber++;
+        this->intConstructor(monthNumber);
+    }
+    else
+    {
+        this->intConstructor(1);
+    }
+
+    // do actual increment
+    return *this;
+  }
+
+Month Month::operator++(int)
+  {
+    Month tmp(*this);
+    operator++();
+    return tmp;
+  }
+
+Month Month::operator--()
+  {
+    if(monthNumber > 1)
+    {
+        monthNumber--;
+        this->intConstructor(monthNumber);
+    }
+    else
+    {
+        this->intConstructor(12);
+    }
+
+    // do actual increment
+    return *this;
+  }
+
+Month Month::operator--(int)
+  {
+    Month tmp(*this);
+    operator--();
+    return tmp;
+  }

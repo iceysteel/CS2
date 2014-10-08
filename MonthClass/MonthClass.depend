@@ -1,10 +1,15 @@
 # depslib dependency file v1.0
-1411702829 source:c:\users\zain\documents\c++\monthclass\main.cpp
+1412737704 source:c:\users\zain\documents\c++\monthclass\main.cpp
 	<iostream>
 	<string>
 	"Month.h"
 
-1411702851 c:\users\zain\documents\c++\monthclass\include\month.h
+1412738665 c:\users\zain\documents\c++\monthclass\include\month.h
+	<string>
+	<iostream>
+
+1412739019 source:c:\users\zain\documents\c++\monthclass\src\month.cpp
+	"Month.h"
 	<string>
 	<iostream>
 

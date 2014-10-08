@@ -20,6 +20,11 @@ class Month
         void setName();
 
         void print();
+
+        Month operator++();
+        Month operator++(int);
+        Month operator--();
+        Month operator--(int);
     protected:
     private:
         string name;
