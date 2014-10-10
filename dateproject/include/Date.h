@@ -12,6 +12,7 @@ class Date
         void display3();
         void storeDayMonthYear();
         virtual ~Date();
+        void setMonth(int m);
 
         Month operator++();
         Month operator++(int);

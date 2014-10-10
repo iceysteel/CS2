@@ -11,6 +11,22 @@ Date::Date()
     year = 0;//ctor
     monthString = "";
 }
+
+Date::Date(int d, int m, int y)
+{
+    day = d;
+    month = m;
+    year = y;//ctor
+    string months[12] = {"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" };
+    monthString = months[(m - 1)];
+}
+
+Date::setMonth(int m)
+{
+    string months[12] = {"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" };
+    monthString = months[(m - 1)];
+}
+
 Date::~Date()
 {
     //dtor
@@ -115,6 +131,28 @@ void Date::storeDayMonthYear()
 
 Date Date::operator++()
   {
+    if(day < 31)
+    {
+        if(month < 12)
+        {
+            day = 1;
+            setMonth(1);
+            year++;
+        }
+        else
+        {
+
+            day = 1;
+        }
+    }
+    else
+    {
+
+    }
+
+
+
+    //old code begins
     if(monthNumber < 12)
     {
         monthNumber++;

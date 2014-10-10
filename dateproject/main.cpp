@@ -12,6 +12,7 @@ int main()
     day1.display2();
     day1.display3();
 
+
     cout << "Before and after ++" << endl;
     day1.display3();
     ++first;
