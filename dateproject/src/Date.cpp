@@ -108,5 +108,56 @@ void Date::storeDayMonthYear()
 
     cout << "input the year" << endl;
     cin >> year;
-
 }
+
+
+// finish this implemention ljkgkljhkljfhkljsdhfkljhsdklfjhskldjfhskdjf
+
+Date Date::operator++()
+  {
+    if(monthNumber < 12)
+    {
+        monthNumber++;
+        this->intConstructor(monthNumber);
+    }
+    else
+    {
+        this->intConstructor(1);
+    }
+
+    // do actual increment
+    return *this;
+  }
+
+Date Date::operator++(int)
+  {
+    Month tmp(*this);
+    operator++();
+    return tmp;
+  }
+
+Date Date::operator--()
+  {
+    if(monthNumber > 1)
+    {
+        monthNumber--;
+        this->intConstructor(monthNumber);
+    }
+    else
+    {
+        this->intConstructor(12);
+    }
+
+    // do actual increment
+    return *this;
+  }
+
+Date Date::operator--(int)
+  {
+    Month tmp(*this);
+    operator--();
+    return tmp;
+  }
+
+
+

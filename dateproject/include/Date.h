@@ -12,11 +12,18 @@ class Date
         void display3();
         void storeDayMonthYear();
         virtual ~Date();
+
+        Month operator++();
+        Month operator++(int);
+        Month operator--();
+        Month operator--(int);
+
     private:
         int day;
         int month;
         int year;
-        std::string monthString;
+        string monthString;
+
 };
 
 #endif // DATE_H
