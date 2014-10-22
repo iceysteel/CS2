@@ -9,7 +9,11 @@ class BankAccount
         virtual ~BankAccount();
     protected:
     private:
-
+        double balance;
+        int depositsThisMonth;
+        int withdrawals;
+        double annualInterestRate;
+        double monthlyServiceCharges;
 };
 
 #endif // BANKACCOUNT_H
