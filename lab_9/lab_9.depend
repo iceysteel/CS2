@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1412913562 source:c:\users\zain\documents\c++\lab_9\main.cpp
+	<iostream>
+	"Complex.h"
+
+1412913562 c:\users\zain\documents\c++\lab_9\include\complex.h
+	<iostream>
+
+1412913562 source:c:\users\zain\documents\c++\lab_9\src\complex.cpp
+	<iostream>
+	"Complex.h"
+
