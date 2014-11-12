@@ -14,10 +14,10 @@ class Date
         virtual ~Date();
         void setMonth(int m);
 
-        Month operator++();
-        Month operator++(int);
-        Month operator--();
-        Month operator--(int);
+       // Month operator++();
+//        Month operator++(int);
+  //      Month operator--();
+    //    Month operator--(int);
 
     private:
         int day;

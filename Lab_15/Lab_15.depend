@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1415324310 source:c:\users\zain\documents\c++\lab_15\main.cpp
+	<iostream>
+	"Tree.h"
+	"TreeNode.h"
+
+1415321997 c:\users\zain\documents\c++\lab_15\include\tree.h
+	<iostream>
+	<new>
+	"TreeNode.h"
+
+1415321997 c:\users\zain\documents\c++\lab_15\include\treenode.h
+

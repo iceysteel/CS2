@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1415334878 source:c:\users\zain\documents\c++\lab14\main.cpp
+	<iostream>
+	"Node.h"
+
+1415334705 c:\users\zain\documents\c++\lab14\include\node.h
+	<iostream>
+
