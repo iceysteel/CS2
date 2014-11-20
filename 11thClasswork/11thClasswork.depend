@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1416361368 source:c:\users\zain\documents\c++\11thclasswork\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<cctype>
+	"List.h"
+
+1415936183 c:\users\zain\documents\c++\11thclasswork\include\list.h
+	<iostream>
+	<new>
+	"ListNode.h"
+
+1415936183 c:\users\zain\documents\c++\11thclasswork\include\listnode.h
+
