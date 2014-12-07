@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1417923181 source:c:\users\zain\documents\c++\lab17redux\main.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	"SalesData.h"
+
+1417851884 c:\users\zain\documents\c++\lab17redux\include\salesdata.h
+	<string>
+
+1417852281 source:c:\users\zain\documents\c++\lab17redux\src\salesdata.cpp
+	<string>
+	"SalesData.h"
+
